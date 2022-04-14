@@ -188,7 +188,7 @@ a.storefront-button:hover { color: #f9e90d; }
 p.storefront-text { color: #ffffff; font-family: 'Raleway', sans-serif; font-weight: 700; margin: 1% 0; padding: 0.88rem 0; }
 
 /* --- Pane 2 --- */
-div.pane-2 { position: relative; z-index: 1000; }
+div.pane-2 { position: relative; z-index: 1000; padding: 40px 0 40px 0; }
 
 div.pane-2 h2 { font-family: 'Tryst', sans-serif; font-size: 2.17rem; color: #42413c; margin: 10% 0 5%; text-align: center; }
 div.pane-2 h2 span { color: #399aba; }
