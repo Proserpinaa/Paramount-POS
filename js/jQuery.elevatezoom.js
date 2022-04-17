@@ -1018,7 +1018,6 @@
 
 					//set the zoomwindow background position
 					if (self.options.easing){
-
 						//     if(self.changeZoom){
 						//           clearInterval(self.loop);
 						//           self.changeZoom = false;
@@ -1032,12 +1031,9 @@
 						if (!self.loop){           
 							self.loop = setInterval(function(){                
 								//using zeno's paradox    
-
 								self.xp += (self.windowLeftPos  - self.xp) / self.options.easingAmount; 
 								self.yp += (self.windowTopPos  - self.yp) / self.options.easingAmount;
 								if(self.scrollingLock){
-
-
 									clearInterval(self.loop);
 									self.xp = self.windowLeftPos;
 									self.yp = self.windowTopPos            
@@ -1061,21 +1057,17 @@
 										}
 
 										/*
-             if(!self.bgxp){self.bgxp = self.largeWidth/self.newvalue;}
-						if(!self.bgyp){self.bgyp = self.largeHeight/self.newvalue ;}  
-                 if (!self.bgloop){   
-                 	self.bgloop = setInterval(function(){   
-
-                 self.bgxp += (self.largeWidth/self.newvalue  - self.bgxp) / self.options.easingAmount; 
-								self.bgyp += (self.largeHeight/self.newvalue  - self.bgyp) / self.options.easingAmount;
-
-           self.zoomWindow.css({ "background-size": self.bgxp + 'px ' + self.bgyp + 'px' });
-
-
+             				if(!self.bgxp){self.bgxp = self.largeWidth/self.newvalue;}
+										if(!self.bgyp){self.bgyp = self.largeHeight/self.newvalue ;}  
+                 		if (!self.bgloop){   
+                 		self.bgloop = setInterval(function(){   
+                 		self.bgxp += (self.largeWidth/self.newvalue  - self.bgxp) / self.options.easingAmount; 
+										self.bgyp += (self.largeHeight/self.newvalue  - self.bgyp) / self.options.easingAmount;
+          					self.zoomWindow.css({ "background-size": self.bgxp + 'px ' + self.bgyp + 'px' });
                   }, 16);
-
-                 }
+                }
 										 */
+
 										self.changeBgSize = false;
 									}
 
@@ -1197,17 +1189,13 @@
 
 			},
 			swapAction: function(smallimage, largeimage){
-
-
 				var self = this;    
-
 				var newImg2 = new Image(); 
 				newImg2.onload = function() {
 					//re-calculate values
 					self.nzHeight = newImg2.height;
 					self.nzWidth = newImg2.width;
 					self.options.onImageSwapComplete(self.$elem);
-
 					self.doneCallback();  
 					return;      
 				}          
@@ -1229,11 +1217,7 @@
 				if(self.options.zoomType == "inner") {
 					self.zoomWindow.css({ backgroundImage: "url('" + largeimage + "')" }); 
 				} 
-
-
-
 				self.currentImage = largeimage;
-
 				if(self.options.imageCrossfade){
 					var oldImg = self.$elem;
 					var newImg = oldImg.clone();         
@@ -1260,11 +1244,7 @@
 						newImgTint.stop(true).fadeOut(self.options.imageCrossfade, function() {
 							$(this).remove();         
 						});
-
-
-
 						oldImgTint.fadeIn(self.options.imageCrossfade);
-
 
 						//self.zoomTintImage.attr("width",elem.data("image"));
 
@@ -1322,8 +1302,6 @@
 							self.zoomWrap.css("height", self.options.constrainSize);
 							self.zoomWrap.css("width", "auto"); 
 							self.constwidth = self.zoomWrap.width();
-
-
 						}
 						else{                  
 							self.$elem.css("height", self.options.constrainSize);
@@ -1378,8 +1356,6 @@
 						}   
 
 					}        
-
-
 				}
 
 			},
@@ -1419,14 +1395,9 @@
 					else{
 						lensWidth =  (self.options.zoomWindowWidth/self.widthRatio);
 					}
-
-
 					if(self.zoomLens){
-
 						self.zoomLens.css('width', lensWidth);    
 						self.zoomLens.css('height', lensHeight); 
-
-
 					}
 				}
 			},
@@ -1439,10 +1410,7 @@
 				//loop through the gallery options and set them in list for fancybox
 				self.gallerylist = [];
 				if (self.options.gallery){ 
-
-
 					$('#'+self.options.gallery + ' a').each(function() {
-
 						var img_src = '';
 						if($(this).data("zoom-image")){
 							img_src = $(this).data("zoom-image");
@@ -1463,8 +1431,6 @@
 								title: $(this).find('img').attr("title")
 							});
 						}
-
-
 					});
 				}                                                       
 				//if no gallery - return current image
@@ -1487,15 +1453,9 @@
 				self.newvalue = parseFloat(value).toFixed(2);
 				newvalue = parseFloat(value).toFixed(2);
 
-
-
-
 				//maxwidth & Maxheight of the image
 				maxheightnewvalue = self.largeHeight/((self.options.zoomWindowHeight / self.nzHeight) * self.nzHeight);     
 				maxwidthtnewvalue = self.largeWidth/((self.options.zoomWindowWidth / self.nzWidth) * self.nzWidth);   	
-
-
-
 
 				//calculate new heightratio
 				if(self.options.zoomType != "inner")
@@ -1512,8 +1472,6 @@
 						self.fullheight = false;
 
 					}
-
-
 //					calculate new width ratio
 
 					if(maxwidthtnewvalue <= newvalue){
@@ -1541,8 +1499,6 @@
 						}}
 				}
 
-
-
 				if(self.options.zoomType == "inner")
 				{
 					maxheightnewvalue = parseFloat(self.largeHeight/self.nzHeight).toFixed(2);     
@@ -1553,11 +1509,7 @@
 					if(newvalue > maxwidthtnewvalue){
 						newvalue = maxwidthtnewvalue;
 					}      
-
-
 					if(maxheightnewvalue <= newvalue){
-
-
 						self.heightRatio = (self.largeHeight/newvalue) / self.nzHeight; 
 						if(newvalue > maxheightnewvalue){
 							self.newvalueheight = maxheightnewvalue;
@@ -1565,13 +1517,8 @@
 							self.newvalueheight = newvalue;
 						}
 						self.fullheight = true;
-
-
 					}
 					else{
-
-
-
 						self.heightRatio = (self.largeHeight/newvalue) / self.nzHeight; 
 
 						if(newvalue > maxheightnewvalue){
@@ -1582,10 +1529,6 @@
 						}
 						self.fullheight = false;
 					}
-
-
-
-
 					if(maxwidthtnewvalue <= newvalue){   
 
 						self.widthRatio = (self.largeWidth/newvalue) / self.nzWidth; 
@@ -1597,8 +1540,6 @@
 						}
 
 						self.fullwidth = true;
-
-
 					}
 					else{  
 
@@ -1606,8 +1547,6 @@
 						self.newvaluewidth = newvalue;
 						self.fullwidth = false;
 					}        
-
-
 				} //end inner
 				scrcontinue = false;
 
@@ -1642,18 +1581,11 @@
 				}
 
 				if(scrcontinue){
-
-
-
 					self.zoomLock = 0;
 					self.changeZoom = true;
 
 					//if lens height is less than image height
-
-
 					if(((self.options.zoomWindowHeight)/self.heightRatio) <= self.nzHeight){
-
-
 						self.currentZoomLevel = self.newvalueheight; 
 						if(self.options.zoomType != "lens" && self.options.zoomType != "inner") {
 							self.changeBgSize = true;
@@ -1663,17 +1595,8 @@
 						if(self.options.zoomType == "lens" || self.options.zoomType == "inner") {  
 							self.changeBgSize = true;  
 						}	
-
-
 					} 
-
-
-
-
 					if((self.options.zoomWindowWidth/self.widthRatio) <= self.nzWidth){
-
-
-
 						if(self.options.zoomType != "inner"){
 							if(self.newvaluewidth > self.newvalueheight)   {
 								self.currentZoomLevel = self.newvaluewidth;                 
@@ -1721,9 +1644,6 @@
 			}
 
 	};
-
-
-
 
 	$.fn.elevateZoom = function( options ) {
 		return this.each(function() {
@@ -1786,7 +1706,7 @@
 			responsive:true,
 			onComplete: $.noop,
       onDestroy: function() {},
-       onHoverImage: function() {},
+      onHoverImage: function() {},
             onNotHoverImage: function() {},
 			onZoomedImageLoaded: function() {},
 			onImageSwap: $.noop,
