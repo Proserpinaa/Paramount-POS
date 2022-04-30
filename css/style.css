@@ -49,7 +49,7 @@ div.pane-7 { position: relative; display: block; overflow: hidden; min-height: 4
 
 ul.h-nav { margin-top: 30px; }
 ul.h-nav a { font-family: 'Raleway', sans-serif; font-weight: 700; padding: 1rem 0.5rem 1.0625rem; border: none !important; background: transparent none repeat scroll 0 0 !important; display: block !important; text-transform: uppercase; color: #ffffff; text-align: center; }
-ul.h-nav a:hover { color: #f9e90f; }
+ul.h-nav a:hover { color: #afb3ce; }
 ul.h-nav li a img { margin: 10px auto 0; }
 
 div.slide-text h2 { margin-top: 20%; color: #ffffff; text-transform: uppercase; font-family: 'Raleway', sans-serif; font-weight: 800; font-size: 2.5rem; text-align: center; }
