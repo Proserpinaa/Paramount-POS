@@ -167,8 +167,8 @@ a.th-store:hover { background: transparent url("../img/sprite/store-hover.png") 
 a.th-smoke { background: transparent url("../img/sprite/smoke.png") no-repeat scroll center center; }
 a.th-smoke:hover { background: transparent url("../img/sprite/smoke-hover.png") no-repeat scroll center center; box-shadow: 0 0 6px 1px #42413c !important; }
 
-a.th-business { background: #f9e90d url("../img/sprite/business-types.png") no-repeat scroll center center; box-shadow: 0 0 0 1px #f9e90d !important; }
-a.th-business:hover { background: #f9e90d url("../img/sprite/business-types.png") no-repeat scroll center center; }
+a.th-business { background: #0da2f9 url("../img/sprite/business-types.png") no-repeat scroll center center; box-shadow: 0 0 0 1px #0da2f9 !important; }
+a.th-business:hover { background: #0da2f9 url("../img/sprite/business-types.png") no-repeat scroll center center; }
 
 /* --- Pane 3 --- */
 div.pane-3-top { background: transparent url("../img/front/pane-3-top.png") repeat-x scroll center bottom; height: 30px; display: block; width: 100%; }
