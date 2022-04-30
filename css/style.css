@@ -1465,7 +1465,7 @@ div.page2-pane-wrap div.points { float: right; }
 
 
 .navigation-popup{position:absolute;top:0px;left:0px;background:rgba(0,0,0,0.7);z-index:9999;height:100vh;width:100%;display:none;overflow-x:hidden}
-.navigation-popup .navigation-content{width:25%;max-width:255px;background:rgba(249,233,13,0.85);float:right;position:absolute;height:100vh;min-width:255px;right:0px;top:0px;}
+.navigation-popup .navigation-content{width:25%;max-width:255px;background:#25327a;float:right;position:absolute;height:100vh;min-width:255px;right:0px;top:0px;}
 .navigation-popup .navigation-content .btn_nav_close{margin:16px 0 0 -28px;float:left;float:left;clear:both;  -webkit-animation-duration:0.3s!important;
   animation-duration: 0.3s!important;
   -webkit-animation-fill-mode: both;
@@ -1473,11 +1473,11 @@ div.page2-pane-wrap div.points { float: right; }
 .navigation-popup .navigation-content .btn_nav_close img{width:56px}
 .navigation-popup .navigation-content ul{float:left;clear:both;display:block;list-style:none;margin:4px 0 0 0;padding:0px;width:100%;}
 .navigation-popup .navigation-content ul li{float:left;clear:both;margin:0px;padding:0px;width:100%;}
-.navigation-popup .navigation-content ul li a{float:left;height:23px;clear:both;margin:0px;padding:0px;width:100%;color:#42413c;font-size:16px;font-family:"ralewayregular";text-transform:uppercase;line-height:25px;padding-left:34px;}
-.navigation-popup .navigation-content ul li a:hover{background:#42413c;color:#f9e90d;font-family:"ralewayblack"}
-.navigation-popup .navigation-content ul li a.active{background:#42413c;color:#f9e90d;font-family:"ralewayblack"}
-.navigation-popup .navigation-content .line{float:left;border-bottom:1px solid #c7b900;clear:both;margin:20px 0 24px 34px;width:95px;}
-.navigation-popup .navigation-content .sub-title{color:#42413c;text-transform:uppercase;font-size:16px;font-family:"ralewayblack";float:left;margin:0 0 20px 34px;line-height:30px;clear:both;}
+.navigation-popup .navigation-content ul li a{float:left;height:23px;clear:both;margin:0px;padding:0px;width:100%;color:#bdc1d7;font-size:16px;font-family:"ralewayregular";text-transform:uppercase;line-height:25px;padding-left:34px;}
+.navigation-popup .navigation-content ul li a:hover{background:#afb3ce;color:#25327a;font-family:"ralewayblack"}
+.navigation-popup .navigation-content ul li a.active{background:#afb3ce;color:#25327a;font-family:"ralewayblack"}
+.navigation-popup .navigation-content .line{float:left;border-bottom:1px solid #25327a;clear:both;margin:20px 0 24px 34px;width:95px;}
+.navigation-popup .navigation-content .sub-title{color:#afb3ce;text-transform:uppercase;font-size:16px;font-family:"ralewayblack";float:left;margin:0 0 20px 34px;line-height:30px;clear:both;}
 .navigation-popup .navigation-content .demo-icon{float:left;margin:0 0 0 34px;clear:both;width:138px;height:105px;background: url("../img/btn_request_demo.png") 0 0 no-repeat;}
 .navigation-popup .navigation-content .demo-icon:hover{background-position: 0 -106px;}
 .navigation-popup .get-started-popup{width:38%;background:rgba(255,255,255,0.85);float:right;position:absolute;height:100vh;min-width:527px;right:0px;top:0px;display: none}
