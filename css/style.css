@@ -981,11 +981,11 @@ div.page2-pane-13 div.custom-pane div.border-wrap { border-left: 1px solid #ffff
 /* --- Pane 12 --- */
 div.page2-pane-12 { position: relative; z-index: 1; min-height: 300px; visibility: hidden; }
 
-div.page2-pane-12 div.page2-pane-skew { background: #42413c none repeat scroll 0 0; bottom: 0; content: ""; height: 350px; left: 0; overflow: visible; position: absolute; transform: skewY(2deg); width: 100%; z-index: 1; }
+div.page2-pane-12 div.page2-pane-skew { background: #25327a none repeat scroll 0 0; bottom: 0; content: ""; height: 350px; left: 0; overflow: visible; position: absolute; transform: skewY(2deg); width: 100%; z-index: 1; }
 div.page2-pane-12 div.page2-pane-skew div.page2-pane-inner { width: 100%; margin-top: 100px; position: relative; display: block; float: left; transform: skewY(-2deg); }
 
 div.page2-pane-inner h2 { font-family: 'Raleway', sans-serif; font-size: 2rem; font-weight: bolder; text-transform: uppercase; text-align: center; margin: 30px 0 10px; color: #ffffff; }
-div.page2-pane-inner h2 span { color: #f9e90d; }
+div.page2-pane-inner h2 span { color: #0da2f9; }
 div.page2-pane-inner p { font-family: 'Raleway', sans-serif; margin-top: 10px; letter-spacing: 1px; text-align: center; color: #ffffff; }
 
 /* --- Pane 11 --- */
@@ -1006,67 +1006,63 @@ div.page2-pane-11 div.pane11-bottom a.scroll { background: transparent url("../i
 
 /* -- Pane 11 Sprites Level A -- */
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a1 { background: #ffffff url("../img/features/sprite/pos-overview.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a1:hover { background-position: 0 -150px;background-color: #42413c}
-
-
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a1:hover { background-position: 0 -150px;background-color: #25327a}
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a2 { background: #ffffff url("../img/features/sprite/mobile.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a2:hover { background-position: 0 -150px;background-color: #42413c }
-
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a2:hover { background-position: 0 -150px;background-color: #25327a }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a3 { background: #ffffff url("../img/features/sprite/multi-station.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a3:hover {background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a3:hover {background-position: 0 -150px;background-color: #25327a }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a4 { background: #ffffff url("../img/features/sprite/order-types.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a4:hover { background-position: 0 -150px;background-color: #42413c }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a4:hover { background-position: 0 -150px;background-color: #25327a }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a5 { background: #ffffff url("../img/features/sprite/menu-modifiers.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a5:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a5:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a6 { background: #ffffff url("../img/features/sprite/tipping.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a6:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a6:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-a7 { background: #ffffff url("../img/features/sprite/ecommerce.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-a7:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-a7:hover { background-position: 0 -150px;background-color: #25327a  }
 
 /* -- Pane 11 Sprites Level B -- */
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-b1 { background: #ffffff url("../img/features/sprite/payments.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-b1:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-b1:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-b2 { background: #ffffff url("../img/features/sprite/checkout.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-b2:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-b2:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-b3 { background: #ffffff url("../img/features/sprite/order-history.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-b3:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-b3:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-b4 { background: #ffffff url("../img/features/sprite/printing.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-b4:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-b4:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-b5 { background: #ffffff url("../img/features/sprite/time-attendance.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-b5:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-b5:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-b6 { background: #ffffff url("../img/features/sprite/virtual-office.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-b6:hover { background-position: 0 -150px;background-color: #42413c }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-b6:hover { background-position: 0 -150px;background-color: #25327a }
 
 /* -- Pane 11 Sprites Level C -- */
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-c1 { background: #ffffff url("../img/features/sprite/permission-setting.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-c1:hover {background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-c1:hover {background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-c2 { background: #ffffff url("../img/features/sprite/store-management.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-c2:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-c2:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-c3 { background: #ffffff url("../img/features/sprite/multi-location.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-c3:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-c3:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-c4 { background: #ffffff url("../img/features/sprite/crm.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-c4:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-c4:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-c5 { background: #ffffff url("../img/features/sprite/inventory.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-c5:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-c5:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-c6 { background: #ffffff url("../img/features/sprite/raw-goods.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-c6:hover { background-position: 0 -150px;background-color: #42413c }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-c6:hover { background-position: 0 -150px;background-color: #25327a }
 
 /* -- Pane 11 Sprites Level D -- */
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-d1 { background: #ffffff url("../img/features/sprite/analytics.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-d1:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-d1:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-d2 { background: #ffffff url("../img/features/sprite/smart-marketing.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-d2:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-d2:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-d3 { background: #ffffff url("../img/features/sprite/fraud-protection.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-d3:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-d3:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-d4 { background: #ffffff url("../img/features/sprite/security.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-d4:hover { background-position: 0 -150px;background-color: #42413c }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-d4:hover { background-position: 0 -150px;background-color: #25327a }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-d5 { background: #ffffff url("../img/features/sprite/support.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-d5:hover { background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-d5:hover { background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-d6 { background: #ffffff url("../img/features/sprite/training.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-d6:hover {background-position: 0 -150px;background-color: #42413c  }
-
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-d6:hover {background-position: 0 -150px;background-color: #25327a  }
 div.page2-pane-11 div.pane11-bottom ul li a.sprite-h1 { background: #ffffff url("../img/features/sprite/hardware.png") no-repeat scroll 0 0; }
-div.page2-pane-11 div.pane11-bottom ul li a.sprite-h1:hover {background-position: 0 -150px;background-color: #42413c  }
+div.page2-pane-11 div.pane11-bottom ul li a.sprite-h1:hover {background-position: 0 -150px;background-color: #25327a  }
 
 
 
@@ -1103,7 +1099,7 @@ div.page2-pane-11 div.pane11-bottom ul li a.feat-item img.hover{
     display: none;
 }
 div.page2-pane-11 div.pane11-bottom ul li:hover a.feat-item{
-    background: #42413c;
+    background: #25327a;
     color: #fff;
 }
 div.page2-pane-11 div.pane11-bottom ul li:hover a.feat-item img.front{
@@ -1248,7 +1244,7 @@ div.page2-pane-wrap ul.scroll-nav { position: relative; list-style-type: none; m
 div.page2-pane-wrap ul.scroll-nav li { display: block; }
 /*div.page2-pane-wrap ul.scroll-nav li a { padding: 5px; display: block; text-indent: 30%; color: #42413c; font-size: 14px; }*/
 div.page2-pane-wrap ul.scroll-nav li a { padding: 5px; display: block; text-indent: 0; color: #42413c; font-size: 14px; padding-left:10%;}
-div.page2-pane-wrap ul.scroll-nav li a:hover { background: #f9e90d none repeat scroll 0 0; }
+div.page2-pane-wrap ul.scroll-nav li a:hover { background: #afb3ce none repeat scroll 0 0; }
 
 div.page2-pane-wrap p.null-margin { margin: 0 !important; }
 div.page2-pane-wrap h3.null-margin { margin: 0 !important; }
@@ -1391,8 +1387,8 @@ div.page2-pane-6 div.tab-container ul.tabs { display: block; margin: 0 auto; max
 div.page2-pane-6 div.tab-container h4 { text-align: center; font-size: 2.5rem; margin: 50px 0 30px; }
 
 div.page2-pane-6 div.tab-container ul.tabs li { margin: 0 2px; }
-div.page2-pane-6 div.tab-container ul.tabs li.active a { position: relative; background: #f9e90d none repeat scroll 0 0; }
-div.page2-pane-6 div.tab-container ul.tabs li.active a:after { top: 100%; left: 50%; border: solid transparent; content: ""; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(249, 233, 13, 0); border-top-color: #f9e90d; border-width: 15px; margin-left: -15px; }
+div.page2-pane-6 div.tab-container ul.tabs li.active a { position: relative; background: #0da2f9 none repeat scroll 0 0; }
+div.page2-pane-6 div.tab-container ul.tabs li.active a:after { top: 100%; left: 50%; border: solid transparent; content: ""; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(249, 233, 13, 0); border-top-color: #0da2f9; border-width: 15px; margin-left: -15px; }
 
 div.page2-pane-6 div.ipad-wrap { display: block; margin: 0 auto; background: #ffffff url("../img/features/ipad-wrap.png") no-repeat scroll center center/cover; max-width: 732px; width: 100%; max-height: 512px; height: 100%;  }
 div.page2-pane-6 div.ipad-inner { padding: 50px 100px 50px 80px; }
@@ -1460,7 +1456,7 @@ div.page2-pane-wrap div.sticky { position: fixed; top: 56px; left: 0; }
 div.page2-pane-wrap div.sticky-stop { clear: both; }
 div.page2-pane-wrap div.sticky-bottom { position: absolute; top: inherit; bottom: 0; }
 
-div.page2-pane-wrap ul.scroll-nav li.current a { background: #f9e90d none repeat scroll 0 0; }
+div.page2-pane-wrap ul.scroll-nav li.current a { background: #afb3ce none repeat scroll 0 0; }
 div.page2-pane-wrap div.points { float: right; }
 
 
