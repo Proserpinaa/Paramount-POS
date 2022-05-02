@@ -224,7 +224,7 @@ div.footer-top { margin-top: 5%; margin-bottom: 2%; }
 div.footer-top ul { list-style-type: none; margin: 20px 0; display: block; }
 div.footer-top ul li { padding: 0; }
 div.footer-top ul li a { font-size: 0.875rem; padding: 3px 0; display: block; color: #42413c; }
-div.footer-top ul li a:hover { color: #f9e90d; }
+div.footer-top ul li a:hover { color: #0da2f9; }
 
 div.footer-top h6 {  color: #42413c; font-family: 'Raleway', sans-serif; font-weight: bolder; }
 
@@ -583,8 +583,8 @@ div.page3-pane-5 img.push-top { margin-top: 30px; }
 
 div.page3-pane-5 ul.tab-nav li { padding: 0.1rem 0.1rem 0; }
 div.page3-pane-5 ul.tab-nav li a { text-align: right; text-transform: uppercase; font-weight: bolder; color: #fafafa; background: #42413c none repeat scroll 0 0; }
-div.page3-pane-5 ul.tab-nav li a:hover { color: #f9e90d; background: #42413c none repeat scroll 0 0; }
-div.page3-pane-5 ul.tab-nav li a.active {  color: #f9e90d !important; background: #42413c none repeat scroll 0 0; }
+div.page3-pane-5 ul.tab-nav li a:hover { color: #0da2f9; background: #42413c none repeat scroll 0 0; }
+div.page3-pane-5 ul.tab-nav li a.active {  color: #0da2f9 !important; background: #42413c none repeat scroll 0 0; }
 div.page3-pane-5 div.tabs-content { margin: 0; }
 
 div.page3-pane-5 ul.tab-nav li a.active:after { top: 95%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(66, 65, 60, 0); border-top-color: #42413c; border-width: 20px; margin-left: -20px; }

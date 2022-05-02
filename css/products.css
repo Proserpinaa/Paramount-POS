@@ -73,7 +73,7 @@
 	font-size: 20.8px;
 	font-weight: bold;
 	text-align: center;
-	color: #42413c;
+	color: white;
 	margin: 25px 0 0 0;
 }
 
@@ -160,9 +160,9 @@
 	margin: 0;
 	font-family: Raleway;
 	font-size: 20.8px;
-	font-weight: 900;
+	font-weight: 700;
 	text-align: center;
-	color: #42413c;
+	color: white;
 }
 .cta-button-wrap{
 	text-align: center;
