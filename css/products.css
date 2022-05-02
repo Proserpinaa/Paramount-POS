@@ -109,14 +109,14 @@
 	 transform: rotateY(0deg);
 }
 .feat-box__back{
-	background: #000;
+	background: #25327a;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);	
 }
 .feat-box__back .feat-box__text h4{
 	margin-top: 25px;
 	margin-bottom: 15px;
-	color: #ffe33e;
+	color: #0da2f9;
 }
 .feat-box__back .feat-box__text p{
 	color: #fff;
@@ -167,8 +167,6 @@
 .cta-button-wrap{
 	text-align: center;
 }
-
-
 
 @media screen and (max-width: 1440px){
 	.banner__text{
