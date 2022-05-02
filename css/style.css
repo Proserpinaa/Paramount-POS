@@ -776,7 +776,7 @@ div.page5-pane-3 img.client-logo { display: block; }
 div.page5-pane-3 .bx-wrapper .bx-pager.bx-default-pager a{height:16px;width: 16px;-webkit-border-radius: 8px;
 -moz-border-radius: 8px;
 border-radius: 8px;background: #c6c6c6;text-indent: 999999px}
-div.page5-pane-3 .bx-wrapper .bx-pager.bx-default-pager a.active{background: #f9e90d}
+div.page5-pane-3 .bx-wrapper .bx-pager.bx-default-pager a.active{background: #0da2f9}
 
 /* - Slide Dots - */
 div.page5-pane-3 ul.slick-dots { margin-left: 0; }
@@ -797,8 +797,8 @@ div.page5-pane-2 div.pane2-content { margin: 0; min-width: 300px; max-width: 500
 div.page5-pane-2 div.pane2-content h3 { font-family: 'Tryst', sans-serif; font-size: 2.4rem; margin: 0; }
 div.page5-pane-2 div.pane2-content h4 { font-family: 'Tryst', sans-serif; font-size: 1.5rem; margin: 0 0 30px; }
 div.page5-pane-2 div.pane2-content p { width: 350px; text-align: justify; color: #696862; }
-div.page5-pane-2 div.pane2-content a.button { border: 2px solid #f9e90d; color: #42413c; text-transform: uppercase; font-weight: 800; font-size: 14px; line-height: 1;}
-div.page5-pane-2 div.pane2-content a.button:hover { background: #ffffff none repeat scroll 0 0; }
+div.page5-pane-2 div.pane2-content a.button { border: 2px solid #0da2f9; color: white; text-transform: uppercase; font-weight: 700; font-size: 14px; line-height: 1;}
+div.page5-pane-2 div.pane2-content a.button:hover { background: #25327a none repeat scroll 0 0; }
 
 div.page5-pane-2 div.pane2-wrap-left,
 div.page5-pane-2 div.pane2-wrap-right { float: left; display: block; width: 100%; min-height: 300px; height: 100%; padding: 10% 0; }
@@ -813,18 +813,18 @@ div.page5-pane-1 div.pane1-wrap {  }
 div.page5-pane-1 div.pane1-inner { background: #ffffff none repeat scroll 0 0; padding: 10px 30px; width: 100%; max-width: 500px; }
 
 div.page5-pane-1 div.push-one { margin-top: 50px;}
-div.page5-pane-1 div.push-one div.pane1-inner { border-right: 5px solid #f9e90d; border-bottom: 1px solid #f9e90d; }
+div.page5-pane-1 div.push-one div.pane1-inner { border-right: 5px solid #0da2f9; border-bottom: 1px solid #0da2f9; }
 
 div.page5-pane-1 div.push-two { margin-top: 50px;}
-div.page5-pane-1 div.push-two div.pane1-inner { max-width: 450px; border-right: 5px solid #f9e90d; border-top: 1px solid #f9e90d; border-bottom: 1px solid #f9e90d; }
+div.page5-pane-1 div.push-two div.pane1-inner { max-width: 450px; border-right: 5px solid #0da2f9; border-top: 1px solid #0da2f9; border-bottom: 1px solid #0da2f9; }
 
-div.page5-pane-1 div.push-three div.pane1-inner { max-width: 600px; border-left: 5px solid #f9e90d; border-top: 1px solid #f9e90d; }
+div.page5-pane-1 div.push-three div.pane1-inner { max-width: 600px; border-left: 5px solid #0da2f9; border-top: 1px solid #0da2f9; }
 
 div.page5-pane-1 div.push-four { margin-top: 70px;}
-div.page5-pane-1 div.push-four div.pane1-inner { max-width: 450px; margin-left: 100px; border-left: 5px solid #f9e90d; border-top: 1px solid #f9e90d; border-bottom: 1px solid #f9e90d; }
+div.page5-pane-1 div.push-four div.pane1-inner { max-width: 450px; margin-left: 100px; border-left: 5px solid #0da2f9; border-top: 1px solid #0da2f9; border-bottom: 1px solid #0da2f9; }
 
 div.page5-pane-1 div.push-five { margin-top: 100px;}
-div.page5-pane-1 div.push-five div.pane1-inner { padding-bottom: 50px; max-width: 500px; margin-left: -50px; border-left: 5px solid #f9e90d; border-top: 1px solid #f9e90d; }
+div.page5-pane-1 div.push-five div.pane1-inner { padding-bottom: 50px; max-width: 500px; margin-left: -50px; border-left: 5px solid #0da2f9; border-top: 1px solid #0da2f9; }
 
 
 /* ------------ Features Page Styles ------------ */
