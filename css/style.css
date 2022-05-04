@@ -1506,6 +1506,16 @@ span.contact-hovered:hover{text-decoration:underline;cursor:pointer;color:#f9e90
 .shopping-bags .item_6{z-index:1;position: absolute;left:199px;top:332px;}
 .shopping-bags .item_6.active{  -webkit-animation: item_6_animation 1s; -moz-animation:item_6_animation 1s; -o-animation:item_6_animation 1s;  animation:item_6_animation 1s; animation-fill-mode: forwards;}
 
+.demo-btn {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #0da2f9;
+    color: white;
+}
+.demo-btn:hover {
+    background-color: #25327a;
+    color: white;
+}
 
 @-webkit-keyframes item_1_animation {
   0%   { left:199px;top:332px; }
@@ -1656,8 +1666,9 @@ span.contact-hovered:hover{text-decoration:underline;cursor:pointer;color:#f9e90
 
     /* .pos-container{width: 230px;margin:0 auto;background-position:center;background-size: 100%;height:250px}
     .pos-container #zoom{width:157px;margin-left:37px} */
-    nav.tab-bar section.push-right{margin-left:15px;}
-    nav.tab-bar section.push-left{margin-right:15px;}
+    nav.tab-bar section.push-right{margin-left:0px;}
+    nav.tab-bar section.push-left{margin-right:2px;}
+    .demo-btn{margin:0px; padding: 10px 7px;}
     a.mice{display:none!important}
     
     img.mobile-logo { margin: 5px 0 0; }
@@ -2295,3 +2306,4 @@ border-radius: 5px;
 .headingcont {
     margin-bottom: 178px;
 }
+
