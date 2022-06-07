@@ -219,7 +219,7 @@ button.slick-prev:hover { background: transparent url("../img/prev.png") no-repe
 button.slick-next:hover { background: transparent url("../img/next.png") no-repeat scroll 0 0!important;}
 
 /* ------ Generic Elements ------ */
-div.footer-top { margin-top: 5%; margin-bottom: 2%; }
+div.footer-top { margin-top: 5%; }
 
 div.footer-top ul { list-style-type: none; margin: 20px 0; display: block; }
 div.footer-top ul li { padding: 0; }
@@ -236,11 +236,14 @@ div.footer-top ul li span.heavy { font-weight: bolder; }
 
 div.footer-top div.social-icons { 
     margin: 7% auto; 
-    max-width: 87px;
 }
 div.footer-top div.social-icons > a { 
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.socials {
+    width: 50%;
 }
 div.footer-top img.push-width { margin: 0 2%; }
 div.footer-top img.pull-right { margin: 0 10%;}
@@ -1735,7 +1738,6 @@ div.pane-2 div.ipad-rotator img{width: 100%;}
     ul li span.left { float: none !important; }
 
     img.mobile-fx { display: block; margin: 0 auto !important; }
-    div.footer-top div.social-icons { margin: 7% auto; width: 132px; height: 42px; display: block; }
     .pane-1 .slick-prev{left:0px!important;}
     .pane-1 .slick-next{right:0px!important;}
     .pane-1 .bx-prev{background:url("../img/partners-prev.png") 0 0 no-repeat!important;left:-20px;margin-top: -8px!important}
