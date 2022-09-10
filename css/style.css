@@ -4650,7 +4650,7 @@ border-radius: 5px;
 
 .price-box {
     max-width: 340px;
-    height: 329px;
+    height: 320px;
     margin: 0px auto 43px;
     -webkit-perspective: 1000px;
     perspective: 1000px;
@@ -4660,6 +4660,10 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.only_need {
+    padding-bottom: 40px;
 }
 
 /* form styling */
