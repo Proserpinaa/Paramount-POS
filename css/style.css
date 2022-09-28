@@ -4739,3 +4739,12 @@ border-radius: 5px;
 .terms-title {
     padding-top: 65px;
 }
+
+.col-ul {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.link {
+    color:#0da2f9;
+}
