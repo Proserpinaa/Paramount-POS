@@ -18,7 +18,7 @@ $headers .= 'Content-type: text/plain; charset=UTF-8; format=flowed' . "\r\n";
 $headers .= 'Content-Transfer-Encoding: 8bit'."\r\n";
 $myEmail = 'romenetsnadia@gmail.com';
 
-mail($firstname, $lastname, $companyname, $tel, $alttel, $email, $radio, $type, $timecall, $message, $headers);
+mail($myEmail, $firstname, $lastname, $companyname, $tel, $alttel, $radio, $type, $timecall, $message, $headers);
 
 echo '<div class="alert alert-success">We have received your message, thank you!</div>';
 ?>
