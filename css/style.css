@@ -4734,3 +4734,8 @@ border-radius: 5px;
     font-weight: bold;
 }
 
+/* terms and conditions page */
+
+.terms-title {
+    padding-top: 65px;
+}
