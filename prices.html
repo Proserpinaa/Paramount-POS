@@ -102,13 +102,15 @@
     
             <ul>
     
-                <li><a class="active" href="features.html">Features</a></li>
+                <li><a  href="features.html">Features</a></li>
     
                 <li><a  href="business-types.html">Business Types</a></li>
     
                 <li><a  href="products.html">Products</a></li>
     
                 <li><a  href="partners.html">Partners</a></li>
+
+                <li><a class="active" href="prices.html">Prices</a></li>
     
             </ul>
     
@@ -167,6 +169,8 @@
 
 				<li><a  href="partners.html">Partners</a></li>
 
+                <li><a class="active" href="prices.html">Prices</a>
+
 			</ul>
 
 			<!-- <span class="line"></span>
@@ -195,7 +199,7 @@
 
                     <h3 class="p-sub-h">All POS packages include the following Paramount POS features FOR FREE</h3>
 
-                    <ul class="left">
+                    <ul class="left list-2col">
 
                         <li>Ecommerce/On-line ordering</li>
 
@@ -352,38 +356,41 @@
 
     <h2>Get Started With Your Plan</h2>
 
-    <form  class="form-style-9">
+    <form  class="form-style-9" action="mailto:romenetsnadia@gmail.com"
+    method="POST"
+    enctype="multipart/form-data"
+    name="EmailForm">
         <ul>
             <li>
-                <input type="text" name="field1" class="field-style field-split align-left" placeholder="First Name" />
-                <input type="text" name="field2" class="field-style field-split align-right" placeholder="Last Name" />
+                <input type="text" name="first-name" class="field-style field-split align-left" placeholder="First Name" />
+                <input type="text" name="last-name" class="field-style field-split align-right" placeholder="Last Name" />
             </li>
             
             <li>
-                <input type="text" name="field3" class="field-style field-split align-left" placeholder="Company Name" />
-                <input type="tel" name="field4" class="field-style field-split align-right" placeholder="Best Phone Number" />
+                <input type="text" name="company-name" class="field-style field-split align-left" placeholder="Company Name" />
+                <input type="tel" name="number" class="field-style field-split align-right" placeholder="Best Phone Number" />
             </li>
             
             <li>
-                <input type="tel" name="field5" class="field-style field-split align-left" placeholder="Alt Number" />
-                <input type="email" name="field6" class="field-style field-split align-right" placeholder="Email Address" />
+                <input type="tel" name="alt-number" class="field-style field-split align-left" placeholder="Alt Number" />
+                <input type="email" name="email" class="field-style field-split align-right" placeholder="Email Address" />
             </li>
             
             <li>
                 <label>New POS or Upgrade/change? </label>
-                <input type="radio" id="NewPOS" name="field7" value="New POS">
+                <input type="radio" id="NewPOS" name="radio" value="New POS">
                 <label for="NewPOS">New to POS</label>
-                <input type="radio" id="Upgrade/Change" name="field8" value="Upgrade/Change">
+                <input type="radio" id="Upgrade/Change" name="radio" value="Upgrade/Change">
                 <label for="Upgrade/Change">Upgrade Current POS</label>
             </li>
             
             <li>    
-                <input type="text" name="field9" class="field-style field-split align-left" placeholder="Business Type" />
-                <input type="number" name="field10" class="field-style field-split align-right" placeholder="Best time to call" />
+                <input type="text" name="type" class="field-style field-split align-left" placeholder="Business Type" />
+                <input type="number" name="time-call" class="field-style field-split align-right" placeholder="Best time to call" />
             </li>
             
             <li>
-                <textarea name="field10" class="field-style" placeholder="Questions or info you'd like to share"></textarea>
+                <textarea name="message" class="field-style" placeholder="Questions or info you'd like to share"></textarea>
             </li>
 
             <li>

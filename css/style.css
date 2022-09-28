@@ -4670,6 +4670,12 @@ border-radius: 5px;
     margin-top: 16px;
 }
 
+@media only screen and (min-width: 1100px) {
+    .list-2col {
+        columns: 2 !important;
+    }
+}
+    
 /* form styling */
 
 .form-style-9{
